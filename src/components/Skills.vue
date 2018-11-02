@@ -5,7 +5,7 @@
     <br>
     <div>
       <div v-if="loading">
-        <img src="../assets/double-ring.gif" alt="Smiley face">
+        <!-- <img src="../assets/double-ring.gif" alt="Smiley face"> -->
         <!-- <object data="../assets/double-ring.svg" type="image/svg+xml"></object> -->
         <Loading/>
       </div>
