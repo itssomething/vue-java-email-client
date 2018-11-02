@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import HelloWorld from '@/components/HelloWorld'
-import App from '../App'
 import Compose from '../components/Compose'
+import Main from '../components/Main'
+
 Vue.use(Router)
 
 export default new Router({
@@ -11,6 +11,11 @@ export default new Router({
       path: '/compose',
       name: 'Compose',
       component: Compose
+    },
+    {
+      path: '/',
+      name: 'Main',
+      component: Main
     }
   ]
 })
